@@ -1,0 +1,12 @@
+@media screen and (max-width: 425px){
+    .main_div .container{
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+        grid-template-rows: repeat(auto, 5rem);
+        grid-auto-rows: 7rem;
+        grid-gap: .5rem;
+    }
+    .main_div .container .cont img{
+        width: 50px;
+        height: auto;
+    }
+}
